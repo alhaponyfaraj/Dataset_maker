@@ -63,3 +63,6 @@ class DM(BoxLayout):
     def open_popup3(self):
         the_popup3 = CustomPopup3()
         the_popup3.open()
+
+    def aboutus(self):
+        self.open_popup2()
