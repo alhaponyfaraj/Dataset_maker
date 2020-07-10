@@ -57,3 +57,9 @@ class DM(BoxLayout):
     def open_popup2(self):
         the_popup2 = CustomPopup2()
         the_popup2.open()
+
+
+    #Developer webpage redirect
+    def open_popup3(self):
+        the_popup3 = CustomPopup3()
+        the_popup3.open()
