@@ -53,3 +53,7 @@ class DM(BoxLayout):
 
         the_popup1.open()
 
+    #About Developer and some details
+    def open_popup2(self):
+        the_popup2 = CustomPopup2()
+        the_popup2.open()
