@@ -40,3 +40,8 @@ class CustomPopup3(Popup):
 class SearchListButton(RecycleView):
     pass
 
+class DM(BoxLayout):
+    url_text_input = ObjectProperty()
+    mylabel = ObjectProperty()
+    button = ObjectProperty()
+    search_list = ObjectProperty()
