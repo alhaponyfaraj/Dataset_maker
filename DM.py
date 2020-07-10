@@ -36,3 +36,7 @@ class CustomPopup3(Popup):
         dev_url = "http://www.TNL.com"
         webbrowser.open(dev_url,new=new)
     pass
+
+class SearchListButton(RecycleView):
+    pass
+
