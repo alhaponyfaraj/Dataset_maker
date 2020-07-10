@@ -1,0 +1,17 @@
+<CustomPopup1>:
+    size_hint: .5, .2
+    auto_dismiss: False
+    title: "Caution !"
+    Color:
+        rgba: .5,.5,1,1
+    BoxLayout:
+        orientation: "vertical"
+        height: 60
+        Label:
+            text: "Type Keyword To Search"
+
+        Button:
+            text: "Close"
+            on_press: root.dismiss()
+            size: 20,30
+
