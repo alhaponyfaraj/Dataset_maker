@@ -17,3 +17,9 @@ import webbrowser
 import subprocess
 from kivy.uix.scrollview import ScrollView
 
+class DownloadListButton(RecycleView):
+    pb = ProgressBar(max=1000)
+
+    # this will update the graphics automatically (75% done)
+    pb.value = 750
+    pass
