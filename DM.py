@@ -23,3 +23,6 @@ class DownloadListButton(RecycleView):
     # this will update the graphics automatically (75% done)
     pb.value = 750
     pass
+
+class CustomPopup1(Popup):
+    pass
