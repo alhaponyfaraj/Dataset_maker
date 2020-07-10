@@ -26,3 +26,6 @@ class DownloadListButton(RecycleView):
 
 class CustomPopup1(Popup):
     pass
+
+class CustomPopup2(Popup):
+    pass
