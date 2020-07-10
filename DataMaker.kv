@@ -15,3 +15,40 @@
             on_press: root.dismiss()
             size: 20,30
 
+
+<CustomPopup2>:
+
+    size_hint: .8, .6
+    auto_dismiss: False
+    title: "About Us"
+    BoxLayout:
+
+        orientation: "vertical"
+        height: 60
+        BoxLayout:
+
+            Label:
+                text: "Developer"
+            Label:
+                text: "Alhapony_Farag"
+                pos: self.pos
+
+
+        BoxLayout:
+
+            Label:
+                text: "www.TNL.com"
+
+
+        BoxLayout:
+            orientation: "vertical"
+
+            Label:
+                text: "Special thanks to Python team (www.Python.org)"
+            Label:
+                text: "and Kivy Developing Team (www.kivy.org) "
+
+        Button:
+            text: "Close"
+            on_press: root.dismiss()
+            size: 20,30
