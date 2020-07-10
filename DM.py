@@ -45,3 +45,11 @@ class DM(BoxLayout):
     mylabel = ObjectProperty()
     button = ObjectProperty()
     search_list = ObjectProperty()
+
+#each popup need method
+    #Validation for Text input
+    def open_popup1(self):
+        the_popup1 = CustomPopup1()
+
+        the_popup1.open()
+
