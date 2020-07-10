@@ -29,3 +29,10 @@ class CustomPopup1(Popup):
 
 class CustomPopup2(Popup):
     pass
+
+class CustomPopup3(Popup):
+    def open_developer_page(self):
+        new = 1;
+        dev_url = "http://www.TNL.com"
+        webbrowser.open(dev_url,new=new)
+    pass
