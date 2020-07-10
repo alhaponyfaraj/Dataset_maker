@@ -52,3 +52,27 @@
             text: "Close"
             on_press: root.dismiss()
             size: 20,30
+
+<CustomPopup3>:
+    size_hint: .5, .4
+    auto_dismiss: False
+    title: "Caution !"
+    BoxLayout:
+        orientation: "vertical"
+        height: 60
+        Label:
+
+            text: "If you want to see more by developer"
+        Label:
+
+            text: "Click More By Us"
+
+        Button:
+            text: "More By Us"
+            on_press: root.open_developer_page()
+            size: 20,30
+        Button:
+            text: "Close"
+            on_press: root.dismiss()
+            size: 20,30
+
