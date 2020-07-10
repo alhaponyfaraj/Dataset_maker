@@ -66,3 +66,18 @@ class DM(BoxLayout):
 
     def aboutus(self):
         self.open_popup2()
+
+    def Insert(self):
+        conn = psycopg2.connect("dbname=Dataset user=Alhapony password=fgfg1995")
+        cursor = conn.cursor()
+        # Define the fields with the input values
+        sentence = str(self.ids.sentence.text)
+        reply = str(self.ids.reply.text)
+        query = "INSERT INTO sentence_reply (sentence, reply) VALUES (%s, %s);"
+        data = (sentence, reply)
+
+        cursor.execute(query, data)
+        conn.commit()
+
+
+
